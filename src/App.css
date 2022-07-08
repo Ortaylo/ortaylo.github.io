@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: calc(30px + 2vmin);
+  color: white;
+}
+
+.nav-list {
+  font-size: 30px;
+}
+.About-header {
+  background-color: wheat;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(18px + 2vmin);
+  color: #282c34;
+}
+
+.About-img {
+  min-width: 200px;
+  max-height: 200px;
+}
+
+.About-description {
+  font-size: 20px;
+  padding: 0 200px 0 200px;
+}
+
+ul {
+  list-style: none;
+}
