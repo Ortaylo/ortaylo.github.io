@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
     return(
-        <article className="About-header">
+        <article className="About-header" id="about">
         <h2>About me</h2>
         <img src={require("../../assets/images/placeholder.png")}
         alt={"picture of me"}

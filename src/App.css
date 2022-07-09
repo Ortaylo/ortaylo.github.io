@@ -1,3 +1,9 @@
+*{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
 }
@@ -36,6 +42,24 @@
   padding: 0 200px 0 200px;
 }
 
-ul {
-  list-style: none;
+.portfolio{
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-evenly; */
+  
+}
+.project-img{
+  min-width: 250px;
+  margin: 100px;
+  position: relative;
+  text-align: center;
+}
+
+.project-text{
+  position: absolute;
+  margin: -240px 0 0 140px;
+}
+
+.navActive{
+  background-color: black;
 }

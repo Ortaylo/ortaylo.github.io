@@ -1,18 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
 import About from './components/About';
 import Nav from './components/Nav';
-import ContactForm from './components/ContactForm';
-
+import React, { useState } from 'react';
 function App() {
+  const [selectedPage, setSelectedPage] = useState([<About/>,'About'])
+  {document.title = selectedPage[1]}
   return (
     <div className="App">
       <header className="App-header">
         My Portfolio
-        <Nav/>
+        <Nav 
+        selectedPage={selectedPage}
+        setSelectedPage={setSelectedPage}
+        />
       </header>
-      <ContactForm/>
-      <About/>
+      {selectedPage[0]}
     </div>
   );
 }
