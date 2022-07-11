@@ -5,42 +5,42 @@ const Portfolio = () => {
         {
             name: 'Run Buddy',
             type: 'Webpage',
-            appLink: '',
-            github: ''
+            appLink: 'https://ortaylo.github.io/run-buddy/',
+            github: 'https://github.com/Ortaylo/run-buddy'
         },
         {
-            name: 'Photo Port',
-            type: 'React App',
-            appLink: '',
-            github: ''
+            name: 'Code quiz',
+            type: 'Webpage',
+            appLink: 'https://ortaylo.github.io/code-Quiz/',
+            github: 'https://github.com/Ortaylo/code-Quiz'
         },
         {
             name: 'Note taker',
             type: 'NodeJS App',
-            appLink: '',
-            github: ''
+            appLink: 'https://calm-atoll-85512.herokuapp.com/',
+            github: 'https://github.com/Ortaylo/Note-Taker'
         },
         {
-            name: 'README Generator',
-            type: 'NodeJS App',
-            appLink: '',
-            github: ''
+            name: 'Day Planner',
+            type: 'Webpage',
+            appLink: 'https://ortaylo.github.io/Day-Planner/',
+            github: 'https://github.com/Ortaylo/Day-Planner'
         },
         {
-            name: 'Team Profile Generator',
+            name: 'Tech Blog',
             type: 'NodeJS App',
-            appLink: '',
-            github: ''
+            appLink: 'https://ancient-beyond-24111.herokuapp.com/',
+            github: 'https://github.com/Ortaylo/Tech-Blog'
         },
         {
             name: 'R.E.L.A.X',
             type: 'Webpage',
-            appLink: '',
-            github: ''
+            appLink: 'https://madstoddard.github.io/ease-your-stress/',
+            github: 'https://github.com/MadStoddard/ease-your-stress'
         }
     ])
     return(
-        <section className="portfolio">
+        <section className="portfolio" id="portfolio">
         {projects.map((project,i) => (
         <image>
         <img
@@ -51,12 +51,20 @@ const Portfolio = () => {
         key={project.name}
         />
         <h4 className="project-text">
-        {project.name} 
+        <a href={project.appLink}>
+        {project.name}    
+        </a>
+        <a href={project.github}>
+        <img 
+        src={
+        require('../../assets/images/Github.png')}
+        alt="Github Logo Repository Link"
+        key={project.github}
+        />
+        </a>
         <br/> 
-        <br/>
-        {project.type}
         </h4>
-        
+        <p>{project.type}</p>
         </image>
         
        

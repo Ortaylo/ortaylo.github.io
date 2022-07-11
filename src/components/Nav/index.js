@@ -2,6 +2,7 @@ import React from "react";
 import About from "../About";
 import ContactForm from "../ContactForm";
 import Portfolio from "../Portfolio";
+import Resume from "../Resume";
 
 const Nav = ({selectedPage,setSelectedPage}) => {
   return(
@@ -22,8 +23,10 @@ const Nav = ({selectedPage,setSelectedPage}) => {
             Contact Me
           </a>   
         </li>
-        <li className="col-3">
-            placeholder2
+        <li className={`col-3 ${selectedPage[1]==='Resume' && 'navActive'}`}>
+          <a href="#resume"onClick={() => setSelectedPage([<Resume/>, 'Resume'])} >
+            Resume
+          </a>   
         </li>
       </ul>
     </nav>

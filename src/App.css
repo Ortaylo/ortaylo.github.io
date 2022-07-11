@@ -50,16 +50,58 @@
 }
 .project-img{
   min-width: 250px;
+  min-height: 250px;
+  max-width: 250px;
+  max-height: 250px;
   margin: 100px;
+  margin-bottom: 10px;
   position: relative;
   text-align: center;
 }
 
-.project-text{
+/* .project-text{
   position: absolute;
   margin: -240px 0 0 140px;
-}
+} */
 
 .navActive{
   background-color: black;
+}
+
+.resume{
+  text-align: left;
+}
+.resume ul {
+  font-size: 30px;
+  padding-left: 10px;
+}
+
+.resume li {
+  font-size: 20px;
+}
+
+.App-footer{
+  background-color: grey;
+  min-height: 12vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 200px;
+
+}
+
+.footer-img{
+  max-height: 50px;
+  max-width: 50px;
+}
+
+@media screen and (max-width: 875px) {
+  
+  .portfolio{
+    justify-content: center;
+  }
+  .project-img{
+    max-width: 100px;
+    max-height: 100px;
+  }
 }

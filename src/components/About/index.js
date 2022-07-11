@@ -4,7 +4,7 @@ const About = () => {
     return(
         <article className="About-header" id="about">
         <h2>About me</h2>
-        <img src={require("../../assets/images/placeholder.png")}
+        <img src={require("../../assets/images/ProfilePic.png")}
         alt={"picture of me"}
         className="About-img"
         key={'About-Image'}/>
