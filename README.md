@@ -1,10 +1,10 @@
-# Photo-port
+# react-portfolio
 
 ![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
 ## Description 
-a website for showing off photos
+a website for showing off my projects and resume
 
-
+![Screenshot](/src/assets/images/ScreenShot.png)
 ## Table of contents
 
 - [Installation](#installation)
@@ -25,7 +25,7 @@ This project uses the GPL license:  https://www.gnu.org/licenses/gpl-3.0
 ## Contributing
 N/A
 ## Tests
- to run tests, run the following command: npm test
+N/A
 ## Questions
  You can find my at https://github.com/Ortaylo
 
