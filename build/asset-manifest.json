@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.566c2be5.css",
+    "main.js": "/react-portfolio/static/js/main.f9b93c13.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/5.png": "/react-portfolio/static/media/5.24d8c712071a487cb65a.png",
+    "static/media/ScreenShot.png": "/react-portfolio/static/media/ScreenShot.43db08fccbfbbe701481.png",
+    "static/media/0.png": "/react-portfolio/static/media/0.4a357643e61c2806fa39.png",
+    "static/media/3.png": "/react-portfolio/static/media/3.27dd3c916021ac1650db.png",
+    "static/media/4.png": "/react-portfolio/static/media/4.b4ef6bb23c222ea91081.png",
+    "static/media/1.png": "/react-portfolio/static/media/1.00ae71c8530281f25a55.png",
+    "static/media/2.png": "/react-portfolio/static/media/2.9f03304e67bcea450ba1.png",
+    "static/media/ProfilePic.png": "/react-portfolio/static/media/ProfilePic.bff8e2a64893b6b22140.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.566c2be5.css.map": "/react-portfolio/static/css/main.566c2be5.css.map",
+    "main.f9b93c13.js.map": "/react-portfolio/static/js/main.f9b93c13.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.566c2be5.css",
+    "static/js/main.f9b93c13.js"
+  ]
+}
